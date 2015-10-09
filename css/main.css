@@ -1,0 +1,230 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300);
+@import url(https://fonts.googleapis.com/css?family=Alegreya);
+* body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+a:hover {
+  color: #336699;
+}
+
+#articleImg {
+  float: right;
+  padding: 5px;
+  margin: 10px;
+}
+
+article {
+  color: #999999;
+  background-color: rgba(0,0,0, 0.8);
+  padding: 45px;
+  padding-left: 200px;
+  padding-right: 200px;
+  
+}
+
+body { 
+  background-image: url("../views/img/background1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+header {
+  background-color: black;
+   
+}
+  header nav {
+    background-color: black;
+    margin-left: 265px; 
+    opacity: 0.8;
+  }
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; 
+      opacity: 0.8;
+    }
+      header nav ul li {
+        border-bottom: 2px solid #C0C0C0; 
+      }
+        header nav ul li a {
+          text-decoration: none;
+          display: block;
+          padding: 0 20px;
+          line-height: 40px;
+          color: #fff; 
+
+        }
+        header a:hover {
+          color: black;
+        }
+      header nav ul li:hover {
+        background-color: #C0C0C0;
+      }
+
+#logo {
+  /*width: 15%;
+  height: 18%;*/
+  width: 310px;
+  height: 250px;
+  float: left;
+  padding-right: 20px;
+  padding-left: -10px;
+  bottom: 0;
+  margin: 0;  
+}
+
+#search {
+      float: right;
+      width: 300px;
+      margin:17px auto;
+
+      padding:8px 15px;
+      background:rgba(50, 50, 50, 0.2);
+      border:0px solid #dbdbdb;
+
+}
+
+#searchButton {
+      position: relative;
+      padding:6px 20px;
+
+      left:-8px;
+      border:2px solid #207cca;
+      background-color:#207cca;
+      color:#fafafa;
+}
+
+#searchButton:hover {
+      background-color:#fafafa;
+      color:#207cca;
+}
+
+#pagination {
+  padding: 50px;
+}
+ 
+  #pagination ul li a {
+
+    padding: 0 20px;
+    line-height: 40px;
+    display: block;
+    background-color: black;
+    border-bottom: 2px solid #C0C0C0; 
+    text-decoration: none;
+  }
+
+  #pagination a {
+    
+    color: #fff;
+  }
+    #pagination a:hover {
+      color: black;
+    }
+
+    #pagination ul li a:hover {
+      background-color: #C0C0C0;
+    }
+
+      #pagination ul {
+        list-style-type: none;
+      }
+
+#schedule {
+  background-color: black;
+  opacity: 0.8;
+  padding: 25px;
+  color: #999999;
+}
+
+#teamPic {
+  
+  padding-left: 250px;
+  opacity: 1;
+}
+
+#video {
+  padding-top: 10px;
+  padding-left: 250px;
+  padding-bottom: 20px;
+}
+#video1 {
+  padding-top: 10px;
+  padding-right: 250px;
+  float: right;
+}
+
+#videoHaka {
+  padding-left: 50px;
+  padding-right: 175px;
+}
+
+#about ,p ,h3 {
+  text-align: left;
+  background-color: rgba(0,0,0, 0.8);
+  padding: 10px;
+  color: #999999;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+  #about a {
+    color: silver;
+  }
+    #about a:hover {
+      color: #336699;
+    }
+
+
+#haka {
+  text-align: left;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+#players {
+  padding-left: 200px;
+  padding-bottom: 50px;
+  color: #999999;
+  background-color: rgba(0,0,0, 0.8);
+  text-align: left;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+  #players a {
+    color: silver;
+  }
+    #players a:hover {
+      color: #336699;
+    }
+  
+  #players ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+#contact a {
+    color: silver;
+  }
+    #contact a:hover {
+      color: #336699;
+    }
+footer {
+  background-color: black;
+  position: center;
+  padding: 10px;
+  position:absolute;
+  width:100%;
+  
+}
+
+footer p{
+  color: #999999;
+  font-family: 'Alegreya', serif;
+  text-align: center;
+}
